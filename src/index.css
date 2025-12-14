@@ -1,0 +1,131 @@
+/* homework day4 */
+.container{
+  border: 1px solid rgb(252, 24, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form_userPass {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  flex-direction: column;
+  width: 320px;
+  height: 350px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+.text_login{
+  font-size: 30px;
+  text-align: center;
+  color: #333;
+}
+.text_UserPass{
+  margin-bottom: 5px;
+  color: #555;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;  
+}
+.box_UserPass {
+  justify-content: center;
+  width: 290px;
+  height: 40px;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+  font-size: 12px;
+  padding: 0px 10px;
+  transition: all 0.3s ease;
+  background-color: #f8f9fa;
+  /* box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1); */
+  margin-bottom: 10px;
+} 
+
+.button_form{
+  display: flex;
+  gap: 180px;
+  margin-top: 15px;
+}
+
+.btn_style {
+  background-color: #f0f0f0;
+  color: #555;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: "Noto Sans Lao", sans-serif;
+  
+  &:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+}
+.btn_style1 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: "Noto Sans Lao", sans-serif;
+  
+    &:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* MarketItemApp */
+.from_ListMarket{
+  background-color: rgb(174, 211, 241);
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.ToDoList {
+  display: flex;
+  align-items: center;
+  background-color: rgb(252, 250, 250);
+  border-radius: 20px;
+  flex-direction: column;
+  width: 320px;
+  height: 350px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* To Do list */
+
+
+/* main header in Mainlayout */
+.main_header{
+display: flex;
+gap: 20px;
+  a{
+    text-decoration: none;
+    color: blue;
+
+    &:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: palegreen;
+    }
+  }
+  /* .is-active{
+    font-weight: bold;
+    color: #04fd08;
+  } */
+}
+
+.main_footer{
+  .is-active{
+    font-weight: bold;
+    color: #04fd08;
+  }
+}
+/* 404 not found */
+/* .Not_Found{
+display: flex;
+gap: 20px;
+} */
