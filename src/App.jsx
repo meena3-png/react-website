@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div>
       {/* <PreviewDAta/> */}
-      {/* <Homework /> */}
+      <Homework />
       {/* <MarketItemApp /> */}
       {/* <ToDoList/> */}
 
