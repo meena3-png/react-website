@@ -6,7 +6,6 @@ const PostNewPage = () => {
     function handleSubmit(event) {
        event.preventDefault();
        
-       
        const formData = new FormData(event.target);
        const newPost = {
        title: formData.get("title"),
